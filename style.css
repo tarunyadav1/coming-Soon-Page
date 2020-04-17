@@ -1,0 +1,105 @@
+body {
+  /* background-color: hsl(0, 36%, 70%); */
+  background-image: url("images/bg-pattern-desktop.svg");
+  font-family: "Josefin Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 62%;
+}
+
+.hero-mg {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.logo-img {
+  padding-top: 4%;
+  padding-left: 8%;
+}
+
+.big-text {
+  padding-left: 8%;
+  padding-top: 6%;
+  text-transform: uppercase;
+  letter-spacing: 17px;
+}
+
+.big-text span {
+  font-size: 450%;
+  display: block;
+}
+
+.dec-text {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.norm-text {
+  font-weight: 600;
+}
+
+.para-div {
+  padding-left: 8%;
+  width: 40%;
+  padding-top: 1%;
+}
+
+.para-span {
+  color: hsl(0, 36%, 70%);
+  display: block;
+  letter-spacing: 1px;
+  padding-top: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.in-btn {
+  padding-left: 8%;
+  padding-top: 4em;
+}
+
+.in-btn input {
+  width: 29em;
+  height: 45px;
+  border-radius: 25px;
+  border: 1px solid hsla(0, 93%, 68%, 0.4);
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 25px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: justify;
+  word-spacing: 5px;
+  background-color: transparent;
+  outline: none;
+  color: hsla(0, 36%, 70%, 0.4);
+}
+
+.in-btn input:focus {
+  border: 1px solid hsla(0, 93%, 68%, 0.7);
+  color: hsla(0, 36%, 70%, 1);
+}
+
+.button-in {
+  height: 49px;
+  width: 100px;
+  border-radius: 25px;
+  padding: 10px;
+  background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 74%, 74%));
+  padding: 3px;
+  border: none;
+  outline: none;
+}
+
+.sub-btn {
+  text-align: center;
+  border: none;
+  position: relative;
+  right: 105px;
+  top: 3.5px;
+}
+
+.button-in:hover {
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
